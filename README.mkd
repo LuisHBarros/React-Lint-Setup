@@ -1,0 +1,38 @@
+# Lint para React
+
+## O que são as regras de Lint?
+
+As regras de lint presentes nesses arquivos são utilizadas para analisar e verificar a qualidade do código-fonte. Elas ajudam a identificar possíveis erros, inconsistências e más práticas de programação. Essas regras podem abranger diversos aspectos, como formatação, convenções de nomenclatura, uso de variáveis não utilizadas, entre outros. A aplicação dessas regras de lint é importante para garantir um código mais legível, manutenível e livre de erros.
+
+## Descricao de Arquivos
+
+### Arquivo .eslintrc.json
+
+Este arquivo configura o ESLint para verificar e impor regras de estilo e práticas de codificação no seu projeto:
+
+    Semicolon: Sempre usa ponto e vírgula no final das linhas.
+    Quotes: Usa aspas duplas para strings.
+    CamelCase: Exige nomes de variáveis e propriedades em camelCase.
+    Line Length: Limita o comprimento das linhas a 80 caracteres.
+    Object Spacing: Adiciona espaços dentro dos colchetes de objetos.
+    TypeScript e React: Configurações específicas para projetos TypeScript e React.
+
+### Arquivo .prettierrc
+
+Este arquivo configura o Prettier para formatar o código de maneira consistente:
+
+    Semicolon: Adiciona ponto e vírgula no final das linhas.
+    Quotes: Usa aspas duplas.
+    Line Length: Limita o comprimento das linhas a 80 caracteres.
+    Object Spacing: Adiciona espaços dentro dos colchetes de objetos.
+
+### Arquivo .editorconfig
+
+Este arquivo ajuda a manter a formatação consistente em diferentes editores de texto:
+
+    Charset: Usa codificação UTF-8.
+    End of Line: Usa quebras de linha tipo LF.
+    Final Newline: Adiciona uma nova linha no final dos arquivos.
+    Indentation: Usa espaços (2 espaços por nível de indentação).
+    Trim Whitespace: Remove espaços em branco no final das linhas.
+    Line Length: Limita o comprimento das linhas a 80 caracteres.
